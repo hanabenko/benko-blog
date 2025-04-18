@@ -1,7 +1,5 @@
 # _config.yml
 
-theme: minima
-
 sass:
   style: compressed
 
