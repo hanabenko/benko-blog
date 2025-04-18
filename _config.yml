@@ -1,1 +1,10 @@
+# _config.yml
+
 theme: minima
+
+sass:
+  style: compressed
+
+# This line tells Minima to use your stylesheet instead of default
+minima:
+  skin: custom
