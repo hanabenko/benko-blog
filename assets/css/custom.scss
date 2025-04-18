@@ -1,0 +1,35 @@
+---
+---
+
+@import "minima"; // Import the default Minima styles first
+
+// 🟣 Purple aesthetic overrides
+$brand-color: #7b2cbf;
+$text-color: #1e1e1e;
+$background-color: #fdf7ff;
+$link-color: #a259ff;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+}
+
+a:hover {
+  color: darken($link-color, 10%);
+}
+
+// Optional: Custom fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, .site-title {
+  font-family: 'Playfair Display', serif;
+  color: $brand-color;
+}
