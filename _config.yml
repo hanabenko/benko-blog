@@ -1,7 +1,1 @@
-theme: jekyll-theme-chirpy
-remote_theme: cotes2020/jekyll-theme-chirpy
-title: Hana Benko's Blog
-description: "Personal blog and thoughts"
-theme_mode: dark 
-plugins:
-  - jekyll-remote-theme
+theme: minima
